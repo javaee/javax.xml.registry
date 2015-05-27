@@ -33,7 +33,8 @@ import javax.xml.registry.*;
  * <p>Figure 1 shows how a Classification classifies a RegistryObject using a ClassificationScheme.
  * <p>
  * <center>
- * <img SRC="../images/classificationAndRegistryObjectAndScheme.gif" ALT="Using a ClassificationScheme to Classify an Object">
+p
+ * <img SRC="{@docRoot}/resources/images/classificationAndRegistryObjectAndScheme.gif" ALT="Using a ClassificationScheme to Classify an Object">
  * <br><b>Figure 1. Using a ClassificationScheme to Classify an Object</b>
  * </center>
  * <p>
@@ -77,7 +78,7 @@ import javax.xml.registry.*;
  * Figure 2 shows an example of internal classification using a Concept to represent a taxonomy element. The example classifies an Organization instance as a Book Publisher using the NAICS standard taxonomy available as an internal taxonomy. 
  * Note that the figure does not show all the Concepts between the Book Publishers node and the NAICS ClassificationScheme to save space. Had they been there they would have been linked together by the parent attribute of each Concept.
  * <p>
- * <center><img SRC="../images/internalClassificationInstance.gif" ALT="Example of Internal Classification">
+ * <center><img SRC="{@docRoot}/resources/images/internalClassificationInstance.gif" ALT="Example of Internal Classification">
  * <br><b>Figure 2. Example of Internal Classification</b>
  * </center>
  *
@@ -87,7 +88,7 @@ import javax.xml.registry.*;
  * <h3>Example of External Classification</h3>
  * Figure 3 shows an example of external classification. The example uses the same scenario where a Classification classifies an Organization instance as a Book Publisher using the NAICS standard taxonomy. However, this time the structure of the NAICS taxonomy is not available internally to the JAXR provider and consequently there is no Concept instance. Instead, the name and value attributes of the Classification are used to pinpoint the Book Publisher's taxonomy element. Note that name is optional but value is required.
  * <p>
- * <center><img SRC="../images/externalClassificationInstance.gif" ALT="Example of External Classification">
+ * <center><img SRC="{@docRoot}/resources/images/externalClassificationInstance.gif" ALT="Example of External Classification">
  * <br><b>Figure 3. Example of External Classification</b>
  * </center>
  *
@@ -95,7 +96,7 @@ import javax.xml.registry.*;
  * The next example shows how a RegistryObject may be classified by multiple classification schemes. In this example, two internal ClassificationSchemes named Industry and Geography are used to classify several Organization RegistryObjects by their industry and Geography. 
  * In Figure 4, in order to save space and improve readability, the Classification instances are not explicitly shown but are implied as associations between the RegistryObjects (shaded leaf node) and the associated Concepts.
  * <p>
- * <center><img SRC="../images/classificationTree.gif" ALT="Example of Multiple Classifications">
+ * <center><img SRC="{@docRoot}/resources/images/classificationTree.gif" ALT="Example of Multiple Classifications">
  * <br><b>Figure 4. Example of Multiple Classifications</b>
  * </center>
  *

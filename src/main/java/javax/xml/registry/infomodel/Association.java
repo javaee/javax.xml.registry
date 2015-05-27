@@ -35,7 +35,7 @@ import javax.xml.registry.*;
  * 
  * <p>
  * <center>
- * <img SRC="../images/associationInstance.gif" ALT="Example of RegistryObject Association">
+ * <img SRC="{@docRoot}/resources/images/associationInstance.gif" ALT="Example of RegistryObject Association">
  * <br><b>Figure 1. Example of RegistryObject Association</b>
  * </center>
  * <p> 
@@ -51,7 +51,7 @@ import javax.xml.registry.*;
  * Figure 2 extends the previous example in Figure 1 for the intramural association case.
  * <p>
  * <center>
- * <img SRC="../images/associationInstanceIntramural.gif" ALT="Example of Intramural Association">
+ * <img SRC="{@docRoot}/resources/images/associationInstanceIntramural.gif" ALT="Example of Intramural Association">
  * <br><b>Figure 2. Example of Intramural Association</b>
  * </center>
  *
@@ -61,7 +61,7 @@ import javax.xml.registry.*;
  * Figure 3 extends the previous example in Figure 1 for the extramural association case. Note that it is possible for an extramural association to have two distinct Users rather than three distinct Users as shown in Figure 3. In such case, one of the two users owns two of the three objects involved (Association, sourceObject and targetObject).
  * <p>
  * <center>
- * <img SRC="../images/associationInstanceExtramural.gif" ALT="Example of Extramural Association">
+ * <img SRC="{@docRoot}/resources/images/associationInstanceExtramural.gif" ALT="Example of Extramural Association">
  * <br><b>Figure 3. Example of Extramural Association</b>
  * </center>
  * <p>
