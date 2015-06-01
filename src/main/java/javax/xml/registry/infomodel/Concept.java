@@ -32,7 +32,7 @@ import javax.xml.registry.*;
  * <p>Figure 1 shows how Concept instances are used to represent taxonomy elements and their structural relationship with each other in order to describe an internal taxonomy.
  * <p>
  * <center>
- * <img SRC="../images/schemeInstance.gif" ALT="Using Concepts to Represent Taxonomy Elements">
+ * <img SRC="{@docRoot}/resources/images/schemeInstance.gif" ALT="Using Concepts to Represent Taxonomy Elements">
  * <br><b>Figure 1. Using Concepts to Represent Taxonomy Elements</b>
  * </center>
  *

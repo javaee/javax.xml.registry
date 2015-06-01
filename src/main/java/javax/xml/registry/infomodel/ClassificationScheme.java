@@ -34,7 +34,7 @@ import java.util.*;
  * <p>Figure 1 shows how a ClassificationScheme is used by a Classification to classify a RegistryObject.
  * <p>
  * <center>
- * <img SRC="../images/classificationAndRegistryObjectAndScheme.gif" ALT="Using a ClassificationScheme to Classify an Object">
+ * <img SRC="{@docRoot}/resources/images/classificationAndRegistryObjectAndScheme.gif" ALT="Using a ClassificationScheme to Classify an Object">
  * <br><b>Figure 1. Using a ClassificationScheme to Classify an Object</b>
  * </center>
  */
