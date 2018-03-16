@@ -67,7 +67,7 @@
     <name>${extension.name} API</name>
     <description>JAXR API</description>
     
-    <url>http://glassfish.java.net</url>
+    <url>https://javaee.github.io/glassfish</url>
 
     <developers>
         <developer>
@@ -81,19 +81,19 @@
     </developers>
 
     <organization>
-        <name>GlassFish Community</name>
-        <url>https://glassfish.java.net</url>
+        <name>Oracle Corporation</name>
+        <url>http://www.oracle.com</url>
     </organization>
     <licenses>
         <license>
-            <name>CDDL 1.0</name>
-            <url>https://glassfish.java.net/public/CDDL+GPL_1_0.html</url>
+            <name>CDDL + GPLv2 with classpath exception</name>
+            <url>https://oss.oracle.com/licenses/CDDL+GPL-1.1</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
     <issueManagement>
-        <system>jira</system>
-        <url>http://java.net/jira/browse/GLASSFISH</url>
+        <system>GitHub</system>
+        <url>https://github.com/javaee/javax.xml.registry/issues</url>
     </issueManagement>
     <mailingLists>
         <mailingList>
@@ -102,9 +102,9 @@
         </mailingList>
     </mailingLists>
     <scm>
-        <connection>scm:svn:https://svn.java.net/svn/glassfish~svn/trunk/api/javaee-api/javax.xml.registry</connection>
-        <developerConnection>scm:svn:https://svn.java.net/svn/glassfish~svn/trunk/api/javaee-api/javax.xml.registry</developerConnection>
-        <url>http://java.net/projects/glassfish/sources/svn/show/trunk/api/javaee-api/javax.xml.registry</url>
+        <connection>scm:git:https://github.com/javaee/javax.xml.registry</connection>
+        <developerConnection>scm:git:git@github.com:javaee/javax.xml.registry</developerConnection>
+        <url>https://github.com/javaee/javax.xml.registry</url>
     </scm>
 
     <build>
@@ -296,6 +296,20 @@
                         </plugins>                        
                     </reporting>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
