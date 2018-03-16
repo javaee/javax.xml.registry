@@ -51,7 +51,7 @@
 
     <groupId>javax.xml.registry</groupId>
     <artifactId>javax.xml.registry-api</artifactId>
-    <version>1.0.8-SNAPSHOT</version>
+    <version>1.0.8</version>
     
     <properties>
         <non.final>false</non.final>
