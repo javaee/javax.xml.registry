@@ -86,8 +86,8 @@
     </organization>
     <licenses>
         <license>
-            <name>CDDL 1.0</name>
-            <url>https://glassfish.java.net/public/CDDL+GPL_1_0.html</url>
+            <name>CDDL + GPLv2 with classpath exception</name>
+            <url>https://oss.oracle.com/licenses/CDDL+GPL-1.1</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
